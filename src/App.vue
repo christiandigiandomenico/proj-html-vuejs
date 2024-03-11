@@ -2,6 +2,7 @@
 
 import AppNav from './components/AppNav.vue';
 import AppJumbo from './components/AppJumbo.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
 
@@ -14,6 +15,7 @@ export default {
 components: {
   AppNav,
   AppJumbo,
+  AppMain,
 }
 
 }
@@ -25,6 +27,8 @@ components: {
   <AppNav :links="linksNav"></AppNav>
 
   <AppJumbo></AppJumbo>
+
+  <AppMain></AppMain>
   
 </template>
 
