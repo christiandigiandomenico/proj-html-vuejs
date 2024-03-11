@@ -52,11 +52,11 @@ props: {
 
                 <div class="lower-nav-right">
 
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <img src="../../public/img/finder.png">
 
-                    <i class="fa-regular fa-user"></i>
+                    <img src="../../public/img/user.png">
 
-                    <span><i class="fa-solid fa-bag-shopping"></i>
+                    <span><img src="../../public/img/shop.png">
                         (0)€0.00
                     </span>
 
@@ -72,8 +72,10 @@ props: {
 
 <style lang="scss">
 
+@use '../styles/variables' as *;
+
 nav {
-    background-color: #1d1427;
+    background-color: $primarycolor;
 
     .nav-container {
         max-width: 1400px;
@@ -83,7 +85,7 @@ nav {
         
         display: flex;
         justify-content: space-between;
-        padding: 15px;
+        padding-top: 10px;
         color: gray;
 
         .superior-nav-left {
@@ -106,6 +108,7 @@ nav {
             display: flex;
             align-items: center;
             ul {
+                margin-bottom: 0;
                 font-weight: bold;
                 display: flex;
                 gap: 40px;
@@ -117,6 +120,9 @@ nav {
             justify-content: center;
             align-items: center;
             gap: 20px;
+            span {
+                color: $secondarycolor;
+            }
         }
     }
     }
