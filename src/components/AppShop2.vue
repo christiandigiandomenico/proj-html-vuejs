@@ -10,64 +10,123 @@ name: "AppShop2",
 
 <template>
 
-<div class="container-fluid container-shop">
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+        <div class="container-fluid">
 
-<div class="row shop-container">
-
-    <img class="arrow-left" src="../../public/img/arrow-left-white.png">
-
-    <div class="shop-carousel">
-
-    <div class="col-3 shop-item">
-        <img src="../../public/img/04-768x768.jpg">
-        <div class="item-list">
-            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>
-
-            <p>Shopping Mahjong Connect</p>
-
-            <div class="item-price"><span class="discounted-price">€180.00</span> <span class="real-price">€100.00</span></div>
-        </div>
-    </div>
+<div class="row">
 
     <div class="col-3 shop-item">
-        <img src="../../public/img/18-768x768.jpg">
-        <div class="item-list">
-            <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+<img src="../../public/img/04-768x768.jpg">
+<div class="item-list">
+<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>
 
-            <p>BangBang Shooting</p>
+<p>Shopping Mahjong Connect</p>
 
-            <div class="item-price"><span class="real-price">€56.00</span></div>
-        </div>
-    </div>
-
-    <div class="col-3 shop-item">
-        <img src="../../public/img/02-768x768.jpg">
-        <div class="item-list">
-            <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
-
-            <p>Buddy and Lucky Solitaire</p>
-
-            <div class="item-price"><span class="real-price">€62.00</span></div>
-        </div>
-    </div>
-
-    <div class="col-3 shop-item">
-        <img src="../../public/img/10-768x768.jpg">
-        <div class="item-list">
-            <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
-
-            <p>Taishou x Alice Epilogue</p>
-
-            <div class="item-price"><span class="real-price">€160.00</span></div>
-        </div>
-    </div>
-
-    </div>
-
-    <img class="arrow-right" src="../../public/img/arrow-right-white.png">
-
+<div class="item-price"><span class="discounted-price">€180.00</span> <span class="real-price">€100.00</span></div>
+</div>
 </div>
 
+<div class="col-3 shop-item">
+<img src="../../public/img/18-768x768.jpg">
+<div class="item-list">
+<i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+
+<p>BangBang Shooting</p>
+
+<div class="item-price"><span class="real-price">€56.00</span></div>
+</div>
+</div>
+
+<div class="col-3 shop-item">
+<img src="../../public/img/02-768x768.jpg">
+<div class="item-list">
+<i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+
+<p>Buddy and Lucky Solitaire</p>
+
+<div class="item-price"><span class="real-price">€65.00</span></div>
+</div>
+</div>
+
+<div class="col-3 shop-item">
+<img src="../../public/img/10-768x768.jpg">
+<div class="item-list">
+<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+
+<p>Taishou x Alice Epilogue</p>
+
+<div class="item-price"><span class="real-price">€160.00</span></div>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+    <div class="carousel-item">
+      
+        <div class="container-fluid">
+
+<div class="row">
+
+    <div class="col-3 shop-item">
+<img src="../../public/img/01-768x768.jpg">
+<div class="item-list">
+<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>
+
+<p>Joystick Joy Plus</p>
+
+<div class="item-price"><span class="real-price">€120.00</span></div>
+</div>
+</div>
+
+<div class="col-3 shop-item">
+<img src="../../public/img/05-768x768.jpg">
+<div class="item-list">
+    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+
+<p>Vr Visual Set</p>
+
+<div class="item-price"><span class="real-price">€83.00 - €118.00</span></div>
+</div>
+</div>
+
+<div class="col-3 shop-item">
+<img src="../../public/img/07-768x768.jpg">
+<div class="item-list">
+    <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+
+<p>Joystick Camo Light</p>
+
+<div class="item-price"><span class="real-price">€80.00 - €95.00</span></div>
+</div>
+</div>
+
+<div class="col-3 shop-item">
+<img src="../../public/img/14-768x768.jpg">
+<div class="item-list">
+<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>
+
+<p>Earphones Viper X7</p>
+
+<div class="item-price"><span class="real-price">€120.00</span></div>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
   
 </template>
