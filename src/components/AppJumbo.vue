@@ -68,6 +68,9 @@ name: "AppJumbo",
             padding: 15px 25px;
             font-weight: bold;
         }
+        button:hover {
+            background-color: $secondarycolor;
+        }
     }
     }
 }

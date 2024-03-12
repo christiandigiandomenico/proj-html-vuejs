@@ -1,6 +1,7 @@
 <script>
 
 import AppShop from './AppShop.vue'
+import AppShop2 from './AppShop2.vue'
 
 export default {
 
@@ -8,6 +9,7 @@ name: "AppMain",
 
 components: {
   AppShop,
+  AppShop2,
 }
 
 }
@@ -26,7 +28,9 @@ components: {
 
             <div class="shop-container">
 
-                <img src="../../public/img/delivery.png">
+                <img class="white" src="../../public/img/delivery.png">
+
+                <img class="orange" src="../../public/img/delivery-orange.png">
 
                 <div class="delivery-container">
 
@@ -42,9 +46,11 @@ components: {
 
             <div class="shop-container">
 
-                <img src="../../public/img/money.png">
+                <img class="white" src="../../public/img/money.png">
 
-                <div class="money-container">
+                <img class="orange" src="../../public/img/money-orange2.png">
+
+                <div class="delivery-container">
 
                     <div class="shop-bold">Money Return</div>
 
@@ -58,9 +64,11 @@ components: {
 
             <div class="shop-container">
 
-                <img src="../../public/img/percentage.png">
+                <img class="white" src="../../public/img/percentage.png">
 
-                <div class="percentage-container">
+                <img class="orange" src="../../public/img/percentage-orange.png">
+
+                <div class="delivery-container">
 
                     <div class="shop-bold">Member Discount</div>
 
@@ -74,9 +82,11 @@ components: {
 
             <div class="shop-container">
 
-                <img src="../../public/img/payment.png">
+                <img class="white" src="../../public/img/payment.png">
 
-                <div class="payment-container">
+                <img class="orange" src="../../public/img/payment-orange.png">
+
+                <div class="delivery-container">
 
                     <div class="shop-bold">Return Policy</div>
 
@@ -214,32 +224,142 @@ components: {
                     <div class="row">
 
                         <div class="col-6 popular-game">
-                            <img src="../../public/img/cms-banner-01.jpg">
+                            <img src="../../public/img/cms-banner-03.jpg">
 
                             <div class="popular-container">
 
-                                <div class="most-popular">Most Popular</div>
+                                <div class="most-popular">20% Discount</div>
 
-                                <div class="game-title-popular">The Battlefield 4
-                                <br>Naval Strike</div>
+                                <div class="game-title-popular">Dragon's Dogma
+                                <br>Video Game</div>
 
                             </div>
                         </div>
 
                         <div class="col-6 popular-game">
-                            <img src="../../public/img/cms-banner-01.jpg">
+                            <img src="../../public/img/cms-banner-04.jpg">
 
                             <div class="popular-container">
 
-                                <div class="most-popular">Most Popular</div>
+                                <div class="most-popular">30% Discount</div>
 
-                                <div class="game-title-popular">The Battlefield 4
-                                <br>Naval Strike</div>
+                                <div class="game-title-popular">World of Tanks
+                                <br>New Game</div>
 
                             </div>
                         </div>
 
                     </div>
+
+                </div>
+
+        </section>
+
+        <section>
+
+            <div class="our-products-container">
+
+                <div class="title-special">Deal Of The Day</div>
+
+                <div class="divider-special"></div>
+
+            </div>
+
+            <div class="product-selection">
+
+                <span>1026 Days</span>
+
+                <span>13 Hours</span>
+
+                <span>24 Minutes</span>
+
+                <span>17 Seconds</span>
+
+            </div>
+
+            <AppShop2></AppShop2>
+
+        </section>
+
+        <section>
+
+            <div class="our-team">
+
+                <div class="team-container">
+
+                    <img class="our-team-quote" src="../../public/img/quote.png">
+
+                    <img src="../../public/img/t5-1-100x100_left.jpg">
+
+                </div>
+
+                <div class="team-name">Luies Charles <span>(Web Designer)</span></div>
+
+                <div class="team-introduction">"There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available"</div>
+
+                <div class="slider-dots"><i class="fa-solid fa-circle"></i> <i class="fa-solid fa-circle"></i> <i class="fa-solid fa-circle"></i></div>
+            </div>
+
+        </section>
+
+        <section>
+
+            <div class="our-products-container new-game-blogs-title">
+
+                <div class="title-special">New Game Blogs</div>
+
+                <div class="divider-special"></div>
+
+            </div>
+
+            <div class="container-fluid new-game-blogs-container">
+
+                <div class="row">
+
+                    <div class="col-4 new-game-blogs">
+                        <img src="../../public/img/Nisi-ut-aliquid-ex-ea-com-1400x878_t.jpg">
+
+                        <div class="new-game-sub"><i class="fa-regular fa-calendar-days"></i> <span>Jan 18, 2021</span> <i class="fa-solid fa-comments"></i> <span>0 Comment</span></div>
+
+                        <p>Anyway REPS is a NYC agency repres enting photographers</p>
+                    </div>
+
+                    <div class="col-4 new-game-blogs">
+                        <img src="../../public/img/Architecto-beatae-vitae-dicta-1400x878_t.jpg">
+
+                        <div class="new-game-sub"><i class="fa-regular fa-calendar-days"></i> <span>May 30, 2021</span> <i class="fa-solid fa-comments"></i> <span>0 Comment</span></div>
+
+                        <p>Nasual risus suscipit Lorem Ipsum is simply text</p>
+                    </div>
+
+                    <div class="col-4 new-game-blogs">
+                        <img src="../../public/img/At-vero-eos-et-accusamus-1400x878_t.jpg">
+
+                        <div class="new-game-sub"><i class="fa-regular fa-calendar-days"></i> <span>Apr 13, 2021</span> <i class="fa-solid fa-comments"></i> <span>0 Comment</span></div>
+
+                        <p>Nostrum lesum Christum Lorem Ipsum is simply text</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+        <div class="section-divider"></div>
+
+                <div class="sponsor-pictures">
+
+                    <img src="../../public/img/brand-01.png">
+
+                    <img src="../../public/img/brand-02.png">
+
+                    <img src="../../public/img/brand-03.png">
+
+                    <img src="../../public/img/brand-04.png">
+
+                    <img src="../../public/img/brand-05.png">
 
                 </div>
 
@@ -262,6 +382,8 @@ section {
 
 .main-container {
     background-image: url(../../public/img/body-bg.jpg);
+    background-size: contain;
+    background-repeat: repeat;
 }
 
 .shop-methods {
@@ -368,7 +490,118 @@ section {
 }
 
 .discount-games {
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    background-image: url(../../public/img/parallax.jpg);
+    background-size: cover;
+    .team-name {
+        font-weight: bold;
+        color: white;
+        margin-bottom: 30px;
+        span {
+            color: $secondarycolor;
+        }
+    }
+    .team-introduction {
+        color: rgba(255, 255, 255, 0.527);
+        text-align: center;
+        margin-bottom: 50px;
+        max-width: 1100px;
+    }
+    .team-container {
+        position: relative;
+        .our-team-quote {
+            background-color: $secondarycolor;
+            padding: 8px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        img {
+            border-radius: 50%;
+            border: 1px solid $secondarycolor;
+            margin-bottom: 30px;
+            margin-top: 130px;
+        }
+    }
+    .slider-dots {
+        color: white;
+        font-size: 10px;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 65px;
+    }
+}
+
+.new-game-blogs-title {
+    margin-top: 85px;
+}
+
+.new-game-blogs-container{
+
+.new-game-blogs {
+    p {
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .new-game-sub {
+        color: gray;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 10px;
+        .fa-regular, .fa-solid {
+            color: $secondarycolor;
+        }
+    }
+    img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+}
+
+.section-divider {
+    border-bottom: 1px solid gray;
+    width: 1400px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.sponsor-pictures {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 60px;
+}
+
+.shop-container {
+    .orange {
+        display: none;
+    }
+}
+
+.shop-container:hover .delivery-container .shop-bold {
+    color: $secondarycolor;
+}
+
+.shop-container:hover .white {
+    display: none;
+}
+
+.shop-container:hover .orange {
+    display: block;
 }
 
 </style>

@@ -8,6 +8,23 @@ props: {
         links: Array,
     },
 
+    data() {
+    return {
+      isDropdownOpen: false
+    };
+  },
+  methods: {
+    toggleDropdown() {
+      this.isDropdownOpen = true;
+    },
+    closeDropdown() {
+      this.isDropdownOpen = false;
+    },
+    keepDropdownOpen() {
+      
+    }
+  }
+
 }
 
 </script>
@@ -45,9 +62,20 @@ props: {
                 </div>
 
                 <div class="lower-nav-center">
-                    <ul>
-                        <li v-for="link in links">{{ link }}</li>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" v-for="link in links">
+                        {{ link }}
+                        </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
                     </ul>
+                </div>
+                    
                 </div>
 
                 <div class="lower-nav-right">
@@ -107,12 +135,17 @@ nav {
         .lower-nav-center {
             display: flex;
             align-items: center;
-            ul {
-                margin-bottom: 0;
-                font-weight: bold;
-                display: flex;
-                gap: 40px;
-                list-style-type: none;
+            button {
+                background-color: transparent;
+                border: none;
+                margin-right: 40px;
+            }
+            .dropdown-menu.dropdown-menu-dark {
+                background-color: $primarycolor;
+                border: 1px solid grey;
+            }
+            .dropdown-toggle::after {
+                display: none;
             }
         }
         .lower-nav-right {
@@ -127,5 +160,7 @@ nav {
     }
     }
 }
+
+
 
 </style>
