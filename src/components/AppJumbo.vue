@@ -48,7 +48,7 @@ name: "AppJumbo",
         font-weight: bold;
         background-color: $secondarycolor;
         display: inline-block;
-        transform: skewX(-20deg);
+        transform: skewX(-15deg);
         padding: 5px 20px;
         margin-bottom: 30px;
     }
