@@ -284,21 +284,69 @@ components: {
         <section>
 
             <div class="our-team">
+            <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+        <div class="team-container">
 
-                <div class="team-container">
+<img class="our-team-quote" src="../../public/img/quote.png">
 
-                    <img class="our-team-quote" src="../../public/img/quote.png">
+<img src="../../public/img/t5-1-100x100_left.jpg">
 
-                    <img src="../../public/img/t5-1-100x100_left.jpg">
+</div>
 
-                </div>
+<div class="team-name">Luies Charles <span>(Web Designer)</span></div>
 
-                <div class="team-name">Luies Charles <span>(Web Designer)</span></div>
+<div class="team-introduction">"There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available"</div>
 
-                <div class="team-introduction">"There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available"</div>
+    </div>
+    <div class="carousel-item">
+      
+        <div class="team-container">
 
-                <div class="slider-dots"><i class="fa-solid fa-circle"></i> <i class="fa-solid fa-circle"></i> <i class="fa-solid fa-circle"></i></div>
-            </div>
+<img class="our-team-quote" src="../../public/img/quote.png">
+
+<img src="../../public/img/t2-1-100x100_left.jpg">
+
+</div>
+
+<div class="team-name">Luies Charles <span>(Web Designer)</span></div>
+
+<div class="team-introduction">"There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available"</div>
+
+    </div>
+    <div class="carousel-item">
+      
+        <div class="team-container">
+
+<img class="our-team-quote" src="../../public/img/quote.png">
+
+<img src="../../public/img/t4-1-100x100_left.jpg">
+
+</div>
+
+<div class="team-name">Luies Charles <span>(Web Designer)</span></div>
+
+<div class="team-introduction">"There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available, but the majority of suffered alteration in some form, by injected humor. There are many variations of passages of Lorem Ipsum available"</div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
 
         </section>
 
@@ -522,7 +570,7 @@ section {
             padding: 8px;
             position: absolute;
             top: 0;
-            left: 0;
+            left: 495px;
         }
         img {
             border-radius: 50%;
@@ -602,6 +650,20 @@ section {
 
 .shop-container:hover .orange {
     display: block;
+}
+
+.team-container {
+    text-align: center;
+}
+
+.team-name {
+    text-align: center;
+}
+
+.carousel-indicators button {
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
 }
 
 </style>
