@@ -105,11 +105,17 @@ props: {
 nav {
     background-color: $primarycolor;
 
+    hr {
+        width: 100%;
+    }
+
     .nav-container {
-        max-width: 1400px;
         margin: auto;
 
         .superior-nav {
+
+            max-width: 1400px;
+            margin: auto;
         
         display: flex;
         justify-content: space-between;
@@ -122,6 +128,8 @@ nav {
         }
     }
     .lower-nav {
+        max-width: 1400px;
+        margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
