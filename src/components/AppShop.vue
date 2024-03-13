@@ -118,11 +118,11 @@ name: "AppShop",
 
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+  <button class="carousel-control-prev button-left" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+  <button class="carousel-control-next button-right" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -157,6 +157,20 @@ name: "AppShop",
             }
         }
         }
+    }
+}
+
+#carouselExampleFade {
+    position: relative;
+    .button-left {
+        position: absolute;
+        left: -100px;
+        top: 0;
+    }
+    .button-right {
+        position: absolute;
+        right: -100px;
+        top: 0;
     }
 }
 
